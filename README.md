@@ -11,7 +11,7 @@ lab3：基于lab2中的raft底层实现容错的键值服务，该服务维护�
 
 路径：src/kvraft/ + src/raft/
 
-lab4（还未完成）：基于lab2和lab3的内容实现一个分区的kv存储服务，该服务分为ShardMaster和ShardKv两部分：一个raft group运行ShardMaster，负责维护分区配置信息；多个raft group运行ShardKv，分别存储零至多个分区的数据
+lab4（还未完成）：构建一个分布式的，拥有分片功能的，能够加入退出成员的，能够根据配置同步迁移数据的键值数据库服务。
 
 路径：src/shardctrler(lab 4A) + src/shardkv(lab4B)
 
